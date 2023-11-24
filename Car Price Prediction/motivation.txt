@@ -1,0 +1,30 @@
+Car Price Prediction Project
+Welcome to the "Car Price Prediction Project", in this project, you'll have the opportunity to see how I applied various regression algorithms and learn about essential processes like pre-processing, train-test split, and cross-validation using Python with scikit-learn.
+
+Project Overview
+Data Source
+The dataset for this project is sourced from an online car trading company, Auto Scout, and was scraped in 2019. The dataset includes features from 9 different car models and has been preprocessed and prepared for machine learning algorithms.
+
+Project Aim
+The main goal of this project is to develop an understanding of machine learning algorithms. The scenario involves estimating car prices using regression algorithms.
+
+Project Workflow
+Importing Necessary Modules:
+Start by importing the required Python modules for data manipulation, visualization, and machine learning.
+Since we are working with preprocessed data, no need to perform any necessary pre-processing steps such as handling missing values or encoding categorical variables.
+
+1. Implement Linear Regression and evaluate its performance using regression evaluation metrics.
+
+2. Implement Ridge Regression, Lasso Regression, and Elastic-Net algorithms and evaluate their performances.
+
+3. Compare the performances of all algorithms and focus on optimizing the algorithm with the most successful prediction rate.
+
+4. Best Model: Lasso Regression with Hyperparameter Tuning
+After comparing the performances, it's found that the Lasso Regression model with hyperparameter tuning has the best results.
+
+5. Lasso Final Model Best Params: lasso_final_model.best_params_ = {'alpha': 0.01}
+
+Results and Conclusion
+This project provides a hands-on experience with regression algorithms and essential machine learning processes. After implementing and evaluating various algorithms, it's concluded that the Lasso Regression model with hyperparameter tuning (alpha=0.01) performs the best, achieving an R2 score of 0.901 and a Mean Squared Error of 1396.803.
+
+For further improvements, focus on feature importance to optimize the model's resource usage. Additionally, explore hyperparameter tuning for other algorithms and experiment with different feature selection techniques. The success of the project is measured not only by the predictive performance of the models but also by the understanding gained in implementing and fine-tuning machine learning algorithms. Take this opportunity to enhance your skills and knowledge in regression modeling and machine learning in general.

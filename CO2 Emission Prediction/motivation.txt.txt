@@ -1,0 +1,29 @@
+CO2 Emission Prediction by Cars
+
+Problem Statement:
+CO2 Emission Prediction by Cars project with the aim of developing a model capable of accurately predicting carbon dioxide (CO2) emissions based on various features of car engines. The project's motivation stems from the need to understand and mitigate the environmental impact of vehicles, contributing to efforts to reduce carbon emissions and promote sustainable practices.
+
+Project Objective:
+The primary goal of this project is to create a robust model that can predict CO2 emissions from cars based on key engine features. By utilizing data collected from the Canadian Government's Official Website, the project seeks to estimate the amount of CO2 a car will emit during combined city and highway driving. This predictive capability can aid in making informed decisions related to vehicle emissions and support initiatives aimed at reducing the carbon footprint of the automotive sector.
+
+Data Description:
+The dataset used in this project was sourced from the Canadian Government's Official Website and comprises various attributes related to car features and CO2 emissions(https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64#wb-auto-6). These attributes include:
+
+Make: Car brand under study.
+Model: Specific model of the car.
+Vehicle_class: Car body type.
+Engine_size: Size of the car engine in liters.
+Cylinders: Number of cylinders.
+Transmission: Type of transmission (e.g., automatic, manual).
+Fuel_type: Type of fuel used by the car.
+Fuel_consumption_city: City fuel consumption ratings in liters per 100 kilometers.
+Fuel_consumption_hwy: Highway fuel consumption ratings in liters per 100 kilometers.
+Fuel_consumption_comb(l/100km): Combined fuel consumption rating (city and highway) in L/100 km.
+Fuel_consumption_comb(mpg): Combined fuel consumption rating in miles per gallon (mpg).
+Co2_emissions: Tailpipe emissions of carbon dioxide for combined city and highway driving, in grams per kilometer.
+
+Python programming language
+Libraries such as NumPy, Matplotlib, SciPy, scikit-learn, and Yellowbrick
+Machine learning models: Linear Regression, PolinomialRegression with fine tunings in Ridge.
+
+This project not only showcases technical skills but also contributes to environmental awareness and sustainable practices. By combining data analysis, machine learning, and software development, it addresses real-world challenges related to vehicle emissions and supports the broader goal of reducing the environmental impact of the automotive industry.

@@ -1,0 +1,56 @@
+Clustering (Customer Segmentation) Project
+Welcome to the "Clustering (Customer Segmentation) Project." At the end of this project, we will perform Cluster Analysis using an Unsupervised Learning method.
+
+Project Overview
+In this project, our goal is to segment customers based on their purchasing history obtained from the membership cards of a large mall. While this project is less challenging than others, it provides a great opportunity for quick data exploration and hands-on experience with Exploratory Data Analysis (EDA). During EDA, we will observe the distribution of customers across different variables, discover relationships, and identify correlations between variables. The ultimate aim is to specify the variables suitable for cluster analysis.
+
+Finally, we will cluster customers using the K-Means Clustering method and label the clusters accordingly.
+
+Note: This project assumes that you already have a basic understanding of coding in Python. Familiarity with the theory behind Cluster Analysis, scikit-learn module, and Machine Learning is also expected.
+
+What to Expect
+1. Import Libraries, Load Dataset, Exploring Data
+Import Libraries: Begin by importing the necessary libraries for data analysis and machine learning.
+
+Load Dataset: Load the dataset containing customer information.
+
+Explore Data: Quickly explore the dataset to understand its structure and characteristics.
+
+2. Exploratory Data Analysis (EDA)
+Perform a thorough Exploratory Data Analysis to gain insights into the dataset. This includes observing the distribution of various variables, exploring relationships, and identifying patterns.
+
+3. Cluster Analysis
+Clustering based on Age and Spending Score:
+
+Create a new dataset with two chosen variables.
+Determine the optimal number of clusters.
+Apply K Means.
+Visualize and label all clusters.
+Clustering based on Annual Income and Spending Score:
+
+Create a new dataset with two chosen variables.
+Determine the optimal number of clusters.
+Apply K Means.
+Visualize and label all clusters.
+Hierarchical Clustering:
+
+Determine the optimal number of clusters using a Dendrogram.
+Apply Agglomerative Clustering.
+Visualize and label all clusters.
+Conclusion
+Summarize the findings from the cluster analysis, including insights gained from different clusters. Provide a comprehensive understanding of the customer segmentation based on the chosen variables.
+
+Project Results
+The clustering results based on Age, Annual Income, and Spending Score are as follows:
+
+Cluster	Age	Annual Income	Spending Score
+0	55.71	54.77	48.23
+1	30.18	66.07	82.35
+2	43.29	66.94	15.02
+3	27.62	53.28	49.15
+This table provides a snapshot of the characteristics of each cluster, aiding in the interpretation of the segmentation results.
+
+Here's what I did in my Customer Segmentation project: Mentoring Prep. and self-study.
+
+Get Started
+To get started, open the Jupyter Notebook and follow the step-by-step instructions outlined in each section. Happy clustering!
